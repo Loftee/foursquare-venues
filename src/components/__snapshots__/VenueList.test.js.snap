@@ -13,12 +13,14 @@ exports[`VenueList component renders correctly 1`] = `
     <li
       className="venue-list__item"
       key="4c3d6ed94bc9a5939b07d471"
+      onClick={[Function]}
     >
       <h3>
         Costa Coffee
       </h3>
       <p>
-        4 Great Portland St
+        42
+         meters away
       </p>
     </li>
   </ul>

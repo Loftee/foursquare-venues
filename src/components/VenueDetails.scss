@@ -1,0 +1,15 @@
+.venue-details {
+  border-radius: 5px;
+  border: 1px solid white;
+  padding: 15px;
+
+  &__wrapper {
+    float: left;
+    width: 75%;
+    padding: 0 15px;
+  }
+
+  &__address {
+    white-space: pre-line;
+  }
+}

@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Venue Details renders correctly 1`] = `
+<div
+  className="venue-details__wrapper"
+>
+  <h2>
+    Venue Details
+  </h2>
+  <div
+    className="venue-details"
+  >
+    <h2
+      className="venue-details__title"
+    >
+      Costa Coffee
+    </h2>
+    <p
+      className="venue-details__address"
+    >
+      4 Great Portland St
+London
+Greater London
+W1W 8QJ
+United Kingdom
+    </p>
+  </div>
+</div>
+`;

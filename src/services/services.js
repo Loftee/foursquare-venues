@@ -9,7 +9,10 @@ export const fetchVenues = (url) => {
             return jsonData.response.venues.map(venue => ({
                 id: venue.id,
                 name: venue.name,
-                location: venue.location
+                location: {
+                    formattedAddress: venue.location.formattedAddress,
+                    distance: venue.location.distance
+                }
             }));
         })
         .catch(error => console.log(error));

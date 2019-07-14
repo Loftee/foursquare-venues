@@ -14,7 +14,104 @@ exports[`App renders correctly 1`] = `
   />
   <VenueList
     searchText=""
-    venues={Array []}
+    selectVenue={[Function]}
+    selectedVenue={
+      Object {
+        "id": "4c3d6ed94bc9a5939b07d471",
+        "location": Object {
+          "address": "4 Great Portland St",
+          "cc": "GB",
+          "city": "London",
+          "country": "United Kingdom",
+          "distance": 42,
+          "formattedAddress": Array [
+            "4 Great Portland St",
+            "London",
+            "Greater London",
+            "W1W 8QJ",
+            "United Kingdom",
+          ],
+          "labeledLatLngs": Array [
+            Object {
+              "label": "display",
+              "lat": 51.51573111967288,
+              "lng": -0.14068655684295295,
+            },
+          ],
+          "lat": 51.51573111967288,
+          "lng": -0.14068655684295295,
+          "postalCode": "W1W 8QJ",
+          "state": "Greater London",
+        },
+        "name": "Costa Coffee",
+      }
+    }
+    venues={
+      Array [
+        Object {
+          "id": "4c3d6ed94bc9a5939b07d471",
+          "location": Object {
+            "address": "4 Great Portland St",
+            "cc": "GB",
+            "city": "London",
+            "country": "United Kingdom",
+            "distance": 42,
+            "formattedAddress": Array [
+              "4 Great Portland St",
+              "London",
+              "Greater London",
+              "W1W 8QJ",
+              "United Kingdom",
+            ],
+            "labeledLatLngs": Array [
+              Object {
+                "label": "display",
+                "lat": 51.51573111967288,
+                "lng": -0.14068655684295295,
+              },
+            ],
+            "lat": 51.51573111967288,
+            "lng": -0.14068655684295295,
+            "postalCode": "W1W 8QJ",
+            "state": "Greater London",
+          },
+          "name": "Costa Coffee",
+        },
+      ]
+    }
+  />
+  <VenueDetails
+    selectedVenue={
+      Object {
+        "id": "4c3d6ed94bc9a5939b07d471",
+        "location": Object {
+          "address": "4 Great Portland St",
+          "cc": "GB",
+          "city": "London",
+          "country": "United Kingdom",
+          "distance": 42,
+          "formattedAddress": Array [
+            "4 Great Portland St",
+            "London",
+            "Greater London",
+            "W1W 8QJ",
+            "United Kingdom",
+          ],
+          "labeledLatLngs": Array [
+            Object {
+              "label": "display",
+              "lat": 51.51573111967288,
+              "lng": -0.14068655684295295,
+            },
+          ],
+          "lat": 51.51573111967288,
+          "lng": -0.14068655684295295,
+          "postalCode": "W1W 8QJ",
+          "state": "Greater London",
+        },
+        "name": "Costa Coffee",
+      }
+    }
   />
 </div>
 `;
