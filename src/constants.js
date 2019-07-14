@@ -1,2 +1,2 @@
 // API keys should be moved to BE application, this is only included for demo purposes
-export const VENUE_API = 'https://api.foursquare.com/v2/venues/search?client_id=Q5E10KBZHW2HG5X2RL2YGVXYRVZXKYLPRTQMCQ2513IKCA3U&client_secret=K1YU4JG34LCVWMZZLNPWD2JOPEBKKAE2K0F0KZGAX5PHW1Q3&v=20180323&limit=10&ll=51.5154,-0.1410&query=coffee';
+export const VENUE_API = 'https://api.foursquare.com/v2/venues/search?client_id=Q5E10KBZHW2HG5X2RL2YGVXYRVZXKYLPRTQMCQ2513IKCA3U&client_secret=K1YU4JG34LCVWMZZLNPWD2JOPEBKKAE2K0F0KZGAX5PHW1Q3&v=20180323&limit=10&ll=51.5154,-0.1410&intent=browse';

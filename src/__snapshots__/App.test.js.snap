@@ -4,7 +4,16 @@ exports[`App renders correctly 1`] = `
 <div
   className="app"
 >
+  <h1>
+    Search for locations near Oxford Circus
+  </h1>
+  <Search
+    search={[Function]}
+    searchChange={[Function]}
+    searchText=""
+  />
   <VenueList
+    searchText=""
     venues={Array []}
   />
 </div>

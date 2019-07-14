@@ -1,8 +1,8 @@
 import * as constants from '../constants';
 
-export const fetchVenues = (api) => {
-    const fetchAPI = api || constants.VENUE_API;
-    return fetch(fetchAPI)
+export const fetchVenues = (url) => {
+    const fetchUrl = url ? url : constants.VENUE_API;
+    return fetch(fetchUrl)
         .then(handleErrors)
         .then(res => res.json())
         .then(jsonData => {
