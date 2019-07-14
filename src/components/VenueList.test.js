@@ -23,6 +23,10 @@ describe('VenueList component', () => {
         }]
     };
     const component = shallow(<VenueList {...props} />);
+    it('renders correctly', () => {
+        expect(component).toMatchSnapshot();
+    });
+
     it('displays a list of venues', () => {
         expect(component.find('.venue-list__item').length).toEqual(1);
     });
