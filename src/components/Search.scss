@@ -1,4 +1,25 @@
 .search {
   width: 100%;
   padding: 15px;
+
+  &__input, &__submit {
+    background: transparent;
+    border: 2px solid white;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    font-size: 24px;
+    padding: 7px;
+    color: white;
+  }
+
+  &__submit {
+    border-radius: 0 10px 10px 0;
+    position: relative;
+    left: -2px;
+    cursor: pointer;
+  }
+
+  &__submit:hover {
+    background: #333;
+  }
 }
