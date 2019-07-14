@@ -3,12 +3,13 @@ import {shallow} from 'enzyme';
 import App from './App';
 
 describe('App', () => {
+    const app = shallow(<App />);
+
     it('renders correctly', () => {
-       const app = shallow(<App />);
        expect(app).toMatchSnapshot();
     });
 
-    it('successfully returns data from API', () => {
-
+    it('renders VenueList component', () => {
+        expect(app.find('VenueList').exists()).toBe(true);
     });
 });

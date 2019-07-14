@@ -1,0 +1,26 @@
+.venue-list {
+  width: 100%;
+  list-style: none;
+  padding: 0;
+
+  &__wrapper {
+    width: 25%;
+    padding: 0 15px;
+    float: left;
+  }
+
+  &__item {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    transition: padding 0.2s linear;
+    border-radius: 5px;
+  }
+
+  &__item:hover {
+    padding-left: 15px;
+    padding-right: 5px;
+  }
+
+}

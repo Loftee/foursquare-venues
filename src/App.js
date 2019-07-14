@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import {fetchVenues} from './services/services';
+import VenueList from './components/VenueList';
+
 import './App.scss';
 
 class App extends Component {
@@ -23,8 +25,8 @@ class App extends Component {
 
   render() {
     return (
-        <div className="App">
-
+        <div className="app">
+            <VenueList {...this.state} />
         </div>
     );
   }
