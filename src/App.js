@@ -25,7 +25,8 @@ class App extends Component {
         }));
     };
 
-    search = () => {
+    search = event => {
+        event.preventDefault();
         const searchQuery = constants.VENUE_API + '&query=' + this.state.searchText.toLowerCase().replace(' ', '+');
         fetchVenues(searchQuery)
             .then(res => {

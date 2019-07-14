@@ -6,14 +6,14 @@ describe('Search component', () => {
     it('input updates state', () => {
         const mockSearch = jest.fn();
         const component = shallow(<Search search={mockSearch} />);
-        component.find('.search__submit').simulate('click');
+        component.find('.search').simulate('submit');
         expect(mockSearch).toHaveBeenCalled();
     });
 
     it('triggers function on search button click', () => {
         const mockSearch = jest.fn();
         const component = shallow(<Search search={mockSearch} />);
-        component.find('.search__submit').simulate('click');
+        component.find('.search').simulate('submit');
         expect(mockSearch).toHaveBeenCalled();
     });
 });

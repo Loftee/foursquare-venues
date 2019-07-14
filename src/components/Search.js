@@ -5,12 +5,18 @@ import './Search.scss';
 function Search(props) {
     const {search, searchChange, searchText} = props;
     return (
-        <div className={'search'}>
+        <form className={'search'} onSubmit={event => search(event)}>
             <label>
-                <input type={'text'} value={searchText} className={'search__input'} onChange={event=> searchChange(event)} />
+                <input
+                    type={'text'}
+                    value={searchText}
+                    className={'search__input'}
+                    onChange={event=> searchChange(event)}
+                    placeholder={'...search'}
+                />
             </label>
-            <input type={'button'} value={'Search'} className={'search__submit'} onClick={() => search()} />
-        </div>
+            <input type={'submit'} value={'Search'} className={'search__submit'} />
+        </form>
     )
 }
 
