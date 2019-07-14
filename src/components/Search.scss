@@ -22,4 +22,10 @@
   &__submit:hover {
     background: #333;
   }
+
+  @media (max-width: 767px) {
+    &__input {
+      width: 50%;
+    }
+  }
 }

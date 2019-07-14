@@ -11,7 +11,9 @@ function VenueList(props) {
                 {
                     venues.map(venue => {
                         return (
-                            <li key={venue.id} className={'venue-list__item'} onClick={() => {selectVenue(venue.id)}}>
+                            <li key={venue.id} className={'venue-list__item'} onClick={() => {
+                                selectVenue(venue.id)
+                            }}>
                                 <h3>{venue.name}</h3>
                                 <p>{venue.location.distance} meters away</p>
                             </li>

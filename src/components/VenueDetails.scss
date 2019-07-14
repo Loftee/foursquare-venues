@@ -12,4 +12,8 @@
   &__address {
     white-space: pre-line;
   }
+
+  @media (max-width: 767px) {
+    margin-bottom: 50px;
+  }
 }
